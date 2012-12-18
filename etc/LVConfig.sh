@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # LabView Executable
-LabViewBin="/c/Program Files/National Instruments/LabVIEW 2009/LabVIEW.exe"
+LabViewBin="/c/Program Files (x86) /National Instruments/LabVIEW 2011/LabVIEW.exe"
 
 # LabView Shared Path for Compare and Merge
-LabViewShared="/c/Program Files/National Instruments/Shared"
+LabViewShared="/c/Program Files (x86)/National Instruments/Shared"
 
 ## DO NOT EDIT FROM HERE ON UNLESS YOU REALLY REALLY KNOW WHAT YOU ARE DOING
 
