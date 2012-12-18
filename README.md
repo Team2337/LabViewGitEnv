@@ -1,6 +1,10 @@
 LabViewGitEnv
 =============
 
+This is a resource for FIRST Robotics Competition teams for the 2012 FRC game, Rebound Rumble. These bash scripts allow Git Bash for Windows or the Git GUI for Windows to call the NI LabVIEW utilities for merging files (during merges, rebases, pull requests, and other Git operations).
+
+This is forked from Jörg Herzinger. The only edits are simply filepaths that are updated for the 2012 FRC LabVIEW installation. The rest of these instructions are by Jörg. Thanks to him!
+
 This represents everything that is needed to hold your LabView projects under version control with GIT. With this you can configure GIT to use LabViews diff and merge tools to play with your projects. Currently only .vi files are supported others may be coming soon.
 
 To view the actual code switch to the branch according to your operating system. Currently only windows is supported, but porting this to linux or mac should be fairly easy. Please contact me if you plan to do so.
@@ -22,7 +26,7 @@ You can install this system wide or per user. If you have administrative rights 
 Open GIT Bash as Administrator and issue the following commands
 
 	mkdir -p /usr/local
-	git clone -b windows git://github.com/joerg/LabViewGitEnv.git /usr/local/
+	git clone -b windows git://github.com/Team2337/LabViewGitEnv.git /usr/local/
 	cd /usr/local && git checkout -b local
 
 If your are planning to use GIT Gui, open cmd.exe as Administrator and issue the following command
