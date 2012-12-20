@@ -39,7 +39,7 @@ If your are planning to use GIT Gui, open cmd.exe as Administrator and issue the
 
 Open GIT Bash and issue the following commands
 
-	git clone -b windows git://github.com/joerg/LabViewGitEnv.git /tmp/LabViewGitEnv
+	git clone -b windows git://github.com/Team2337/LabViewGitEnv.git /usr/local/
 	find /tmp/LabViewGitEnv -maxdepth 1 -mindepth 1 -exec cp -r {} ~ \;
 	cd ~ && git checkout -b local
 
